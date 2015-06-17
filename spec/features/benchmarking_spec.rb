@@ -3,7 +3,7 @@ require 'rails_helper'
 describe 'benchmarking' do
   def do_things
     visit root_path
-    1.times do
+    5.times do
       find :css, 'h1'
       assert_text 'Capybara Driver Benchmarking!'
       click_button 'Here'
