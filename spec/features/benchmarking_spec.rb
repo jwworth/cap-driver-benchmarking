@@ -10,23 +10,23 @@ describe 'benchmarking' do
     end
   end
 
-  it 'does everything with rack_test' do
+  it 'current driver: rack_test' do
     do_things
   end
 
-  it 'does everything with selenium' do
+  it 'current driver: selenium' do
     Capybara.current_driver = :selenium
     do_things
     Capybara.use_default_driver
   end
 
-  it 'does everthing with webkit' do
+  it 'current driver: webkit' do
     Capybara.current_driver = :webkit
     do_things
     Capybara.use_default_driver
   end
 
-  it 'does everything with poltergeist' do
+  it 'current driver: poltergeist' do
     Capybara.current_driver = :poltergeist
     do_things
     Capybara.use_default_driver
