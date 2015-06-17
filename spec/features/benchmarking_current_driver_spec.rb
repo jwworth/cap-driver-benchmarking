@@ -6,7 +6,7 @@ describe 'benchmarking current driver' do
     5.times do
       find :css, 'h1'
       assert_text 'Capybara Driver Benchmarking!'
-      click_button 'Here'
+      click_button 'Noop'
     end
   end
 
