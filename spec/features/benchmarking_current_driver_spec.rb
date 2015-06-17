@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe 'benchmarking' do
+describe 'benchmarking current driver' do
   def do_things
     visit root_path
     5.times do
