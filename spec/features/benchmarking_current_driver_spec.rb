@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe 'benchmarking current driver' do
-  def do_things
+  def perform_steps
     visit root_path
     5.times do
       find :css, 'h1'
@@ -10,25 +10,26 @@ describe 'benchmarking current driver' do
     end
   end
 
-  it 'current driver: rack_test' do
-    do_things
+  specify 'with rack_test' do
+    perform_steps
   end
 
-  it 'current driver: selenium' do
+  specify 'with selenium' do
     Capybara.current_driver = :selenium
-    do_things
-    Capybara.use_default_driver
+    perform_steps
   end
 
-  it 'current driver: webkit' do
+  specify 'with webkit' do
     Capybara.current_driver = :webkit
-    do_things
-    Capybara.use_default_driver
+    perform_steps
   end
 
-  it 'current driver: poltergeist' do
+  specify 'with poltergeist' do
     Capybara.current_driver = :poltergeist
-    do_things
+    perform_steps
+  end
+
+  after do
     Capybara.use_default_driver
   end
 end

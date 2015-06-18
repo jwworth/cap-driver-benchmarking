@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe 'benchmarking javascript drivers', js: true do
-  def do_things
+  def perform_steps
     visit root_path
     5.times do
       expect(page).to_not have_link 'Hide'
@@ -17,21 +17,22 @@ describe 'benchmarking javascript drivers', js: true do
     end
   end
 
-  it 'javascript driver: selenium' do
+  specify 'with selenium' do
     Capybara.javascript_driver = :selenium
-    do_things
-    Capybara.use_default_driver
+    perform_steps
   end
 
-  it 'javascript driver: webkit' do
+  specify 'with webkit' do
     Capybara.javascript_driver = :webkit
-    do_things
-    Capybara.use_default_driver
+    perform_steps
   end
 
-  it 'javascript driver: poltergeist' do
+  specify 'with poltergeist' do
     Capybara.javascript_driver = :poltergeist
-    do_things
+    perform_steps
+  end
+
+  after do
     Capybara.use_default_driver
   end
 end
