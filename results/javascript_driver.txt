@@ -1,0 +1,169 @@
+
+Randomized with seed 57971
+...
+
+Top 3 slowest examples (6.13 seconds, 100.0% of total time):
+  benchmarking javascript drivers with selenium
+    4.24 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:20
+  benchmarking javascript drivers with poltergeist
+    1.29 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:30
+  benchmarking javascript drivers with webkit
+    0.60048 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:25
+
+Finished in 6.13 seconds (files took 3.22 seconds to load)
+3 examples, 0 failures
+
+Randomized with seed 57971
+
+
+Randomized with seed 8605
+...
+
+Top 3 slowest examples (5.67 seconds, 100.0% of total time):
+  benchmarking javascript drivers with poltergeist
+    3.75 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:30
+  benchmarking javascript drivers with webkit
+    1.33 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:25
+  benchmarking javascript drivers with selenium
+    0.5967 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:20
+
+Finished in 5.67 seconds (files took 3.24 seconds to load)
+3 examples, 0 failures
+
+Randomized with seed 8605
+
+
+Randomized with seed 32186
+...
+
+Top 3 slowest examples (5.31 seconds, 100.0% of total time):
+  benchmarking javascript drivers with poltergeist
+    3.73 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:30
+  benchmarking javascript drivers with selenium
+    0.9814 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:20
+  benchmarking javascript drivers with webkit
+    0.59662 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:25
+
+Finished in 5.31 seconds (files took 3.26 seconds to load)
+3 examples, 0 failures
+
+Randomized with seed 32186
+
+
+Randomized with seed 26561
+...
+
+Top 3 slowest examples (5.67 seconds, 100.0% of total time):
+  benchmarking javascript drivers with poltergeist
+    3.76 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:30
+  benchmarking javascript drivers with webkit
+    1.31 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:25
+  benchmarking javascript drivers with selenium
+    0.59467 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:20
+
+Finished in 5.67 seconds (files took 3.24 seconds to load)
+3 examples, 0 failures
+
+Randomized with seed 26561
+
+
+Randomized with seed 33925
+...
+
+Top 3 slowest examples (5.7 seconds, 100.0% of total time):
+  benchmarking javascript drivers with poltergeist
+    3.74 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:30
+  benchmarking javascript drivers with webkit
+    1.37 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:25
+  benchmarking javascript drivers with selenium
+    0.59656 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:20
+
+Finished in 5.7 seconds (files took 3.2 seconds to load)
+3 examples, 0 failures
+
+Randomized with seed 33925
+
+
+Randomized with seed 36198
+...
+
+Top 3 slowest examples (5.73 seconds, 100.0% of total time):
+  benchmarking javascript drivers with selenium
+    3.76 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:20
+  benchmarking javascript drivers with poltergeist
+    1.37 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:30
+  benchmarking javascript drivers with webkit
+    0.60034 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:25
+
+Finished in 5.73 seconds (files took 3.21 seconds to load)
+3 examples, 0 failures
+
+Randomized with seed 36198
+
+
+Randomized with seed 1200
+...
+
+Top 3 slowest examples (5.41 seconds, 100.0% of total time):
+  benchmarking javascript drivers with webkit
+    3.84 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:25
+  benchmarking javascript drivers with poltergeist
+    0.98361 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:30
+  benchmarking javascript drivers with selenium
+    0.59196 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:20
+
+Finished in 5.41 seconds (files took 3.2 seconds to load)
+3 examples, 0 failures
+
+Randomized with seed 1200
+
+
+Randomized with seed 42648
+...
+
+Top 3 slowest examples (5.68 seconds, 100.0% of total time):
+  benchmarking javascript drivers with poltergeist
+    3.75 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:30
+  benchmarking javascript drivers with webkit
+    1.33 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:25
+  benchmarking javascript drivers with selenium
+    0.60037 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:20
+
+Finished in 5.69 seconds (files took 3.2 seconds to load)
+3 examples, 0 failures
+
+Randomized with seed 42648
+
+
+Randomized with seed 49175
+...
+
+Top 3 slowest examples (5.34 seconds, 100.0% of total time):
+  benchmarking javascript drivers with poltergeist
+    3.76 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:30
+  benchmarking javascript drivers with selenium
+    0.98128 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:20
+  benchmarking javascript drivers with webkit
+    0.59815 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:25
+
+Finished in 5.34 seconds (files took 3.23 seconds to load)
+3 examples, 0 failures
+
+Randomized with seed 49175
+
+
+Randomized with seed 29420
+...
+
+Top 3 slowest examples (5.29 seconds, 100.0% of total time):
+  benchmarking javascript drivers with poltergeist
+    3.74 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:30
+  benchmarking javascript drivers with selenium
+    0.95899 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:20
+  benchmarking javascript drivers with webkit
+    0.59449 seconds ./spec/features/benchmarking_javascript_drivers_spec.rb:25
+
+Finished in 5.29 seconds (files took 3.2 seconds to load)
+3 examples, 0 failures
+
+Randomized with seed 29420

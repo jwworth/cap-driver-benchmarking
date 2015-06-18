@@ -1,0 +1,189 @@
+
+Randomized with seed 10965
+....
+
+Top 4 slowest examples (4.51 seconds, 100.0% of total time):
+  benchmarking current driver with selenium
+    2.77 seconds ./spec/features/benchmarking_current_driver_spec.rb:17
+  benchmarking current driver with webkit
+    1.22 seconds ./spec/features/benchmarking_current_driver_spec.rb:22
+  benchmarking current driver with poltergeist
+    0.50948 seconds ./spec/features/benchmarking_current_driver_spec.rb:27
+  benchmarking current driver with rack_test
+    0.01403 seconds ./spec/features/benchmarking_current_driver_spec.rb:13
+
+Finished in 4.51 seconds (files took 3.23 seconds to load)
+4 examples, 0 failures
+
+Randomized with seed 10965
+
+
+Randomized with seed 54391
+....
+
+Top 4 slowest examples (4.52 seconds, 100.0% of total time):
+  benchmarking current driver with selenium
+    2.73 seconds ./spec/features/benchmarking_current_driver_spec.rb:17
+  benchmarking current driver with webkit
+    0.92299 seconds ./spec/features/benchmarking_current_driver_spec.rb:22
+  benchmarking current driver with poltergeist
+    0.84035 seconds ./spec/features/benchmarking_current_driver_spec.rb:27
+  benchmarking current driver with rack_test
+    0.02066 seconds ./spec/features/benchmarking_current_driver_spec.rb:13
+
+Finished in 4.52 seconds (files took 3.2 seconds to load)
+4 examples, 0 failures
+
+Randomized with seed 54391
+
+
+Randomized with seed 31531
+....
+
+Top 4 slowest examples (4.6 seconds, 100.0% of total time):
+  benchmarking current driver with selenium
+    2.86 seconds ./spec/features/benchmarking_current_driver_spec.rb:17
+  benchmarking current driver with webkit
+    1.21 seconds ./spec/features/benchmarking_current_driver_spec.rb:22
+  benchmarking current driver with poltergeist
+    0.51881 seconds ./spec/features/benchmarking_current_driver_spec.rb:27
+  benchmarking current driver with rack_test
+    0.01571 seconds ./spec/features/benchmarking_current_driver_spec.rb:13
+
+Finished in 4.6 seconds (files took 3.22 seconds to load)
+4 examples, 0 failures
+
+Randomized with seed 31531
+
+
+Randomized with seed 60006
+....
+
+Top 4 slowest examples (4.56 seconds, 100.0% of total time):
+  benchmarking current driver with selenium
+    2.82 seconds ./spec/features/benchmarking_current_driver_spec.rb:17
+  benchmarking current driver with webkit
+    1.02 seconds ./spec/features/benchmarking_current_driver_spec.rb:22
+  benchmarking current driver with poltergeist
+    0.50452 seconds ./spec/features/benchmarking_current_driver_spec.rb:27
+  benchmarking current driver with rack_test
+    0.21423 seconds ./spec/features/benchmarking_current_driver_spec.rb:13
+
+Finished in 4.56 seconds (files took 3.29 seconds to load)
+4 examples, 0 failures
+
+Randomized with seed 60006
+
+
+Randomized with seed 36039
+....
+
+Top 4 slowest examples (4.6 seconds, 100.0% of total time):
+  benchmarking current driver with selenium
+    2.82 seconds ./spec/features/benchmarking_current_driver_spec.rb:17
+  benchmarking current driver with webkit
+    0.91685 seconds ./spec/features/benchmarking_current_driver_spec.rb:22
+  benchmarking current driver with poltergeist
+    0.8426 seconds ./spec/features/benchmarking_current_driver_spec.rb:27
+  benchmarking current driver with rack_test
+    0.02081 seconds ./spec/features/benchmarking_current_driver_spec.rb:13
+
+Finished in 4.6 seconds (files took 3.25 seconds to load)
+4 examples, 0 failures
+
+Randomized with seed 36039
+
+
+Randomized with seed 32868
+....
+
+Top 4 slowest examples (4.51 seconds, 100.0% of total time):
+  benchmarking current driver with selenium
+    2.76 seconds ./spec/features/benchmarking_current_driver_spec.rb:17
+  benchmarking current driver with webkit
+    1.01 seconds ./spec/features/benchmarking_current_driver_spec.rb:22
+  benchmarking current driver with poltergeist
+    0.52094 seconds ./spec/features/benchmarking_current_driver_spec.rb:27
+  benchmarking current driver with rack_test
+    0.21962 seconds ./spec/features/benchmarking_current_driver_spec.rb:13
+
+Finished in 4.51 seconds (files took 3.28 seconds to load)
+4 examples, 0 failures
+
+Randomized with seed 32868
+
+
+Randomized with seed 34926
+....
+
+Top 4 slowest examples (4.51 seconds, 100.0% of total time):
+  benchmarking current driver with selenium
+    2.77 seconds ./spec/features/benchmarking_current_driver_spec.rb:17
+  benchmarking current driver with webkit
+    1.21 seconds ./spec/features/benchmarking_current_driver_spec.rb:22
+  benchmarking current driver with poltergeist
+    0.51637 seconds ./spec/features/benchmarking_current_driver_spec.rb:27
+  benchmarking current driver with rack_test
+    0.01445 seconds ./spec/features/benchmarking_current_driver_spec.rb:13
+
+Finished in 4.51 seconds (files took 3.27 seconds to load)
+4 examples, 0 failures
+
+Randomized with seed 34926
+
+
+Randomized with seed 2945
+....
+
+Top 4 slowest examples (4.55 seconds, 100.0% of total time):
+  benchmarking current driver with selenium
+    2.78 seconds ./spec/features/benchmarking_current_driver_spec.rb:17
+  benchmarking current driver with webkit
+    0.91703 seconds ./spec/features/benchmarking_current_driver_spec.rb:22
+  benchmarking current driver with poltergeist
+    0.84228 seconds ./spec/features/benchmarking_current_driver_spec.rb:27
+  benchmarking current driver with rack_test
+    0.01356 seconds ./spec/features/benchmarking_current_driver_spec.rb:13
+
+Finished in 4.55 seconds (files took 3.25 seconds to load)
+4 examples, 0 failures
+
+Randomized with seed 2945
+
+
+Randomized with seed 48045
+....
+
+Top 4 slowest examples (4.54 seconds, 100.0% of total time):
+  benchmarking current driver with selenium
+    2.92 seconds ./spec/features/benchmarking_current_driver_spec.rb:17
+  benchmarking current driver with webkit
+    0.9004 seconds ./spec/features/benchmarking_current_driver_spec.rb:22
+  benchmarking current driver with poltergeist
+    0.50671 seconds ./spec/features/benchmarking_current_driver_spec.rb:27
+  benchmarking current driver with rack_test
+    0.21462 seconds ./spec/features/benchmarking_current_driver_spec.rb:13
+
+Finished in 4.54 seconds (files took 3.3 seconds to load)
+4 examples, 0 failures
+
+Randomized with seed 48045
+
+
+Randomized with seed 33113
+....
+
+Top 4 slowest examples (4.56 seconds, 100.0% of total time):
+  benchmarking current driver with selenium
+    2.84 seconds ./spec/features/benchmarking_current_driver_spec.rb:17
+  benchmarking current driver with webkit
+    1.21 seconds ./spec/features/benchmarking_current_driver_spec.rb:22
+  benchmarking current driver with poltergeist
+    0.50358 seconds ./spec/features/benchmarking_current_driver_spec.rb:27
+  benchmarking current driver with rack_test
+    0.016 seconds ./spec/features/benchmarking_current_driver_spec.rb:13
+
+Finished in 4.57 seconds (files took 3.24 seconds to load)
+4 examples, 0 failures
+
+Randomized with seed 33113

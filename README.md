@@ -2,7 +2,7 @@
 
 Benchmarking Capybara's drivers.
 
-This is the test app I am building for Hashrocket's Summer Miniconf 2015.
+This is the test app I am building for Hashrocket's Summer Miniconf 2015. The purpose of this app is to test the performance of the drivers available for use with Capybara, as part of a larger talk about drivers.
 
 ### Setup
 
@@ -16,23 +16,34 @@ rake
 
 ### Dependencies
 
-This project measures the RackTest, Selenium, Capybara-webkit, and Poltergeist drivers. It is thus dependent on those projects, as well as Firefox (Selenium), the Qt toolkit (Capybara-webkit), and Phantom.js (Poltergeist).
+This project measures the RackTest, Selenium, Capybara-webkit, and Poltergeist drivers. It is thus dependent on those projects, as well as:
+
+* Firefox (Selenium)
+* Phantom.js (Poltergeist)
+* The Qt toolkit (Capybara-webkit)
 
 ### Hypothesis
 
-I predict the following ranking from fastest to slowest: RackTest, Poltergeist, Capybara-webkit, Selenium.
+I predict the following ranking, from fastest to slowest:
+
+1. RackTest
+2. Poltergeist
+3. Capybara-webkit
+4. Selenium
 
 ### Methodology
 
 * Create a Rails app that measures how quickly each driver completes a series of Capybara steps (one block per driver)
 * Run specs in random order
-* Measure the time using `rspec -p n`
-* Test all the drivers, then test the JavaScript drivers
+* Measure the time using RSpec profiler
+* Test all the drivers, then test only the JavaScript drivers
 * Analyze data
 
-Check out the `spec/features/` directory to see how I implemented the tests.
+See `spec/features/` for more information.
 
 
 ### Results
 
-TBD
+The directory `results/` includes an output file for each spec, with ten runs recorded.
+
+[CHARTS HERE](#)
