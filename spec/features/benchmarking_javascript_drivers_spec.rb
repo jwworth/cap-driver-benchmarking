@@ -4,16 +4,16 @@ describe 'benchmarking javascript drivers', js: true do
   def perform_steps
     visit root_path
     5.times do
-      expect(page).to_not have_link 'Hide'
-      expect(page).to have_link 'Show'
+      assert has_no_link? 'Hide'
+      assert has_link? 'Show'
 
       click_link 'Show'
-      expect(page).to have_content 'I appear!'
-      expect(page).to have_link 'Hide'
-      expect(page).to_not have_link 'Show'
+      assert has_text? 'I appear!'
+      assert has_link? 'Hide'
+      assert has_no_link? 'Show'
 
       click_link 'Hide'
-      expect(page).to_not have_content 'I appear!'
+      assert has_no_text? 'I appear!'
     end
   end
 
