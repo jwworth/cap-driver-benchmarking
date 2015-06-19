@@ -19,6 +19,11 @@ describe 'benchmarking current driver' do
     perform_steps
   end
 
+  specify 'with selenium chrome' do
+    Capybara.current_driver = :chrome
+    perform_steps
+  end
+
   specify 'with webkit' do
     Capybara.current_driver = :webkit
     perform_steps

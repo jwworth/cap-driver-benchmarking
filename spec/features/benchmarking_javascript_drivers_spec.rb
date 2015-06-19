@@ -27,6 +27,11 @@ describe 'benchmarking javascript drivers', js: true do
     perform_steps
   end
 
+  specify 'with selenium chrome' do
+    Capybara.current_driver = :chrome
+    perform_steps
+  end
+
   specify 'with poltergeist' do
     Capybara.current_driver = :poltergeist
     perform_steps
