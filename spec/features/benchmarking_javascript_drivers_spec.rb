@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe 'benchmarking javascript drivers', js: true do
+describe 'benchmarking javascript drivers:', js: true do
   def perform_steps
     visit root_path
     5.times do
@@ -17,22 +17,22 @@ describe 'benchmarking javascript drivers', js: true do
     end
   end
 
-  specify 'with selenium' do
+  specify 'selenium' do
     Capybara.current_driver = :selenium
     perform_steps
   end
 
-  specify 'with webkit' do
+  specify 'webkit' do
     Capybara.current_driver = :webkit
     perform_steps
   end
 
-  specify 'with selenium chrome' do
+  specify 'selenium/chrome' do
     Capybara.current_driver = :chrome
     perform_steps
   end
 
-  specify 'with poltergeist' do
+  specify 'poltergeist' do
     Capybara.current_driver = :poltergeist
     perform_steps
   end
