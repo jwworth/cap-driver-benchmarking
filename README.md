@@ -33,11 +33,11 @@ I predict the following ranking, from fastest to slowest:
 
 ### Methodology
 
-* Create a Rails app that measures how quickly each driver completes a series of Capybara steps (one block per driver)
-* Run specs in random order
+* Create a Rails app that measures how quickly each driver completes a series of Capybara methods (one specify block per driver)
+* Run blocks in random order
 * Measure the time using RSpec profiler
 * Test all the drivers, then test only the JavaScript drivers
-* Analyze data
+* Analyze
 
 See `spec/features/` for more information.
 
