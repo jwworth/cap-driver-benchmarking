@@ -14,7 +14,7 @@ describe 'benchmarking current driver:' do
     perform_steps
   end
 
-  specify 'selenium' do
+  specify 'selenium/firefox' do
     Capybara.current_driver = :selenium
     perform_steps
   end
