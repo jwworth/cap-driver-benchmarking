@@ -17,18 +17,18 @@ describe 'benchmarking javascript drivers:', js: true do
     end
   end
 
-  specify 'selenium/firefox' do
+  specify 'selenium/ff' do
     Capybara.current_driver = :selenium
+    perform_steps
+  end
+
+  specify 'selenium/ch' do
+    Capybara.current_driver = :chrome
     perform_steps
   end
 
   specify 'webkit' do
     Capybara.current_driver = :webkit
-    perform_steps
-  end
-
-  specify 'selenium/chrome' do
-    Capybara.current_driver = :chrome
     perform_steps
   end
 

@@ -14,12 +14,12 @@ describe 'benchmarking current driver:' do
     perform_steps
   end
 
-  specify 'selenium/firefox' do
+  specify 'selenium/ff' do
     Capybara.current_driver = :selenium
     perform_steps
   end
 
-  specify 'selenium/chrome' do
+  specify 'selenium/ch' do
     Capybara.current_driver = :chrome
     perform_steps
   end
