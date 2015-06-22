@@ -25,6 +25,7 @@ class PlotFormatter < RSpec::Core::Formatters::ProfileFormatter
       end
     end
 
+    puts 'Generating GNUplot chart...'
     system "gnuplot -e '%s'" % <<-GNUPLOT.gsub("\n", ';')
       set terminal png
       set output "results/plot.png"
@@ -32,6 +33,7 @@ class PlotFormatter < RSpec::Core::Formatters::ProfileFormatter
       set style fill solid
       plot "#{data_file_name}" using 1:3:xtic(2) with boxes
     GNUPLOT
+    puts 'GNUplot chart generated to results/.'
 
     system "rm results/plot.dat"
   end
