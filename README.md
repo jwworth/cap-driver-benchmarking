@@ -31,18 +31,19 @@ I predict the following ranking, from fastest to slowest:
 1. RackTest
 2. Poltergeist
 3. Capybara-webkit
-4. Selenium
+4. Selenium/Chrome
+5. Selenium/Firefox
 
 ### Methodology
 
-* Create a Rails app that measures how quickly each driver completes a series of Capybara methods (one specify block per driver)
-* Run blocks in random order
+* Create a Rails app that measures how quickly each driver completes a series of Capybara methods
+* Test one driver in each block, in random order
 * Measure the time using RSpec profiler
-* Test all the drivers, then test only the JavaScript drivers
+* Run tests 'cold' (no browsers already running)
+* Test all the drivers, then test the JavaScript drivers by themselves
 * Analyze
 
-See `spec/features/` for more information.
-
+See `spec/features/` to see the implementation.
 
 ### Results
 
