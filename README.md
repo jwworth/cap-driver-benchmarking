@@ -49,6 +49,22 @@ See `spec/features/` to see the implementation.
 
 ### Results
 
-The directory `results/` includes an output file for each spec, with ten runs recorded.
+#### Current Driver, 5 Iterations:
 
-[CHARTS HERE](#)
+![Chart](https://raw.githubusercontent.com/jwworth/cap-driver-benchmarking/master/results/plot_1434987349.png)
+
+#### Current Driver, 100 Iterations:
+
+![Chart](https://raw.githubusercontent.com/jwworth/cap-driver-benchmarking/master/results/plot_1434987386.png)
+
+#### JavaScript Driver, 5 Iterations:
+
+![Chart](https://raw.githubusercontent.com/jwworth/cap-driver-benchmarking/master/results/plot_1434987412.png)
+
+#### JavaScript Driver, 100 Iterations:
+
+![Chart](https://raw.githubusercontent.com/jwworth/cap-driver-benchmarking/master/results/plot_1434987465.png)
+
+### License
+
+MIT

@@ -2,4 +2,3 @@
 /log/*
 !/log/.keep
 /tmp
-/results
