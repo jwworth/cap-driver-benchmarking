@@ -24,6 +24,8 @@ rake db:create db:migrate
 rake
 ```
 
+Validate that all tests are passing, which indicates you have all the dependencies. Activate the custom profiler by adding `--format PlotFormatter` to `.rspec`.
+
 ### Hypothesis
 
 I predict the following ranking, from fastest to slowest:
