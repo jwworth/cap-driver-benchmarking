@@ -18,9 +18,11 @@ rake
 
 This project measures the RackTest, Selenium, Capybara-webkit, and Poltergeist drivers. It is thus dependent on those projects, as well as:
 
-* Firefox (Selenium)
-* Phantom.js (Poltergeist)
-* The Qt toolkit (Capybara-webkit)
+* [Chrome](http://www.google.com/chrome/)
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* [GNUplot](http://www.gnuplot.info/)
+* [PhantomJS](http://phantomjs.org/)
+* [The Qt Port of Webkit](http://trac.webkit.org/wiki/QtWebKit)
 
 ### Hypothesis
 
