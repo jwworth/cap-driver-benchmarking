@@ -8,7 +8,7 @@ This is the test app I am building for Hashrocket's Summer Miniconf 2015. The pu
 
 This project measures the RackTest, Selenium, Capybara-webkit, and Poltergeist drivers. It is thus dependent on those gems, as well as:
 
-* [Chrome](http://www.google.com/chrome/)
+* [Chrome Webdriver](https://code.google.com/p/selenium/wiki/ChromeDriver)
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [GNUplot](http://www.gnuplot.info/)
 * [PhantomJS](http://phantomjs.org/)
