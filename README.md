@@ -2,7 +2,17 @@
 
 Benchmarking Capybara's drivers.
 
-This is the test app I am building for Hashrocket's Summer Miniconf 2015. The purpose of this app is to test the performance of the drivers available for use with Capybara, as part of a larger talk about drivers.
+This is the test app I am building for Hashrocket's Summer Miniconf 2015. The purpose of this app is to test the performance of the drivers available for use with Capybara, as part of a broader talk about drivers.
+
+### Dependencies
+
+This project measures the RackTest, Selenium, Capybara-webkit, and Poltergeist drivers. It is thus dependent on those gems, as well as:
+
+* [Chrome](http://www.google.com/chrome/)
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* [GNUplot](http://www.gnuplot.info/)
+* [PhantomJS](http://phantomjs.org/)
+* [The Qt Port of Webkit](http://trac.webkit.org/wiki/QtWebKit)
 
 ### Setup
 
@@ -10,19 +20,9 @@ This is the test app I am building for Hashrocket's Summer Miniconf 2015. The pu
 git clone http://github.com/jwworth/cap-driver-benchmarking.git
 cd cap-driver-benchmarking
 bundle install
-rake db:migrate
+rake db:create db:migrate
 rake
 ```
-
-### Dependencies
-
-This project measures the RackTest, Selenium, Capybara-webkit, and Poltergeist drivers. It is thus dependent on those projects, as well as:
-
-* [Chrome](http://www.google.com/chrome/)
-* [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-* [GNUplot](http://www.gnuplot.info/)
-* [PhantomJS](http://phantomjs.org/)
-* [The Qt Port of Webkit](http://trac.webkit.org/wiki/QtWebKit)
 
 ### Hypothesis
 
