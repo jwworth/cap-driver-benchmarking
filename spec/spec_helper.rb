@@ -25,10 +25,12 @@ class PlotFormatter < RSpec::Core::Formatters::ProfileFormatter
       end
     end
 
+    time = Time.now.to_i
+
     puts 'Generating GNUplot chart...'
     system "gnuplot -e '%s'" % <<-GNUPLOT.gsub("\n", ';')
       set terminal png
-      set output "results/plot.png"
+      set output "results/plot_#{Time.now.to_i}.png"
       set boxwidth 0.5
       set style fill solid
       plot "#{data_file_name}" using 1:3:xtic(2) with boxes
