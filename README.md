@@ -1,12 +1,10 @@
 # cap-driver-benchmarking
 
-Benchmarking Capybara's drivers.
-
-This is the test app I am building for Hashrocket's Summer Miniconf 2015. The purpose of this app is to test the performance of the drivers available for use with Capybara, as part of a broader talk about drivers.
+This is the test app I built for a talk at Hashrocket's Summer Miniconf 2015. Its purpose is to benchmark the performance of the drivers available for use with Capybara.
 
 ### Dependencies
 
-This project measures the RackTest, Selenium, Capybara-webkit, and Poltergeist drivers. It is thus dependent on those gems, as well as:
+This app benchmarks the RackTest, Selenium, Capybara-webkit, and Poltergeist drivers. It is thus dependent on those gems, and also:
 
 * [Chrome Webdriver](https://code.google.com/p/selenium/wiki/ChromeDriver)
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
@@ -16,6 +14,8 @@ This project measures the RackTest, Selenium, Capybara-webkit, and Poltergeist d
 
 ### Setup
 
+Install the dependencies listed above, then:
+
 ```
 git clone http://github.com/jwworth/cap-driver-benchmarking.git
 cd cap-driver-benchmarking
@@ -24,11 +24,13 @@ rake db:create db:migrate
 rake
 ```
 
-Validate that all tests are passing, which indicates you have all the dependencies. Activate the custom profiler by adding `--format PlotFormatter` to `.rspec`.
+When all the dependencies are installed correctly, the tests should pass.
+
+A custom profiler builds `.png` charts. Activate it by uncommenting `--format PlotFormatter` inside `.rspec`.
 
 ### Hypothesis
 
-I predict the following ranking, from fastest to slowest:
+I predicted the following performance ranking, from fastest to slowest:
 
 1. RackTest
 2. Poltergeist
@@ -45,7 +47,7 @@ I predict the following ranking, from fastest to slowest:
 * Test all the drivers, then test the JavaScript drivers by themselves
 * Analyze
 
-See `spec/features/` to see the implementation.
+See `spec/features/` for more details on the implementation.
 
 ### Results
 
