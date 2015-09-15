@@ -1,5 +1,5 @@
 --color
 --require spec_helper
 --order random
--p
+-p 9
 #--format PlotFormatter
