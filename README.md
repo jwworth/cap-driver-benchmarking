@@ -69,4 +69,7 @@ See `spec/features/` for more details on the implementation.
 
 ### License
 
-MIT
+&copy; 2015 Jake Worth
+
+This repository is distributed under the MIT license. See `LICENSE` for
+details.
